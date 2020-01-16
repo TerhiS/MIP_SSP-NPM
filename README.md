@@ -4,7 +4,7 @@ Mixed Integer Linear Programming (MIP) models for the job sequencing and tool sw
 *This work addresses the generalisation of the NP-hard job sequencing and tool switching problem with non-identical parallel machines 
 and sequence-dependent setup times where a set of jobs is to be scheduled on a set of unrelated parallel machines with machine-dependent processing and tool switching times. 
 Three different mathematical models are presented for two different objectives and are applied to a set of newly generated test instances, publicly available. 
-The instances are compared and analysed using the IBM CPLEX solver and a simple iterated local search heuristic. 
+The instances are compared and analysed using the IBM CPLEX solver and a simple iterated local search heuristic.*
 
 ## Acknowledgement 
 The models are part of a contribution published in the International Journal of Operational Research 2020, 
