@@ -27,8 +27,7 @@
 * Include for example
 * sample instance: output1.txt
 * replace file path
-* $include "file path:\...\"output1.txt
-$include C:\Users\Administrator\Dropbox\Math_Model\Gams_Input\output1.txt
+* $include "file path:\...\"input1.txt
 ;
 
 *** Additional sets and parameters for precedence-based formulation
