@@ -17,8 +17,8 @@ The definitive authenticated version will be available online via [IJOR/Indersci
 ## Content
 Three different MIP models are presented in [GAMS_models](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models). 
 1) [precedence-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/precedence-based.gms)
-2) position-based(https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/position-based.gms)
-3) time-index-based(https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/time-index-based.gmx)
+2) [position-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/position-based.gms)
+3) [time-index-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/time-index-based.gmx)
 
 ## Built With
 [GAMS IDE](https://www.gams.com/download/) - Integrated Development Environment
