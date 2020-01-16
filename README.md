@@ -20,13 +20,14 @@ Three different MIP models are presented in [GAMS_models](https://github.com/Ter
 2) [position-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/position-based.gms)
 3) [time-index-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/time-index-based.gmx)
 
+
 ## Built With
 [GAMS IDE](https://www.gams.com/download/) - Integrated Development Environment
 ## Solved With
 [IBM ILOG CPLEX](https://www.ibm.com/de-de/products/ilog-cplex-optimization-studio) - Solver
-´´´
+```
 Note: A valid CPLEX licence is required for running the models
-´´´
+```
 
 ## Test instances
 The problem instances and an explanation are provided on [Mendeley](http://dx.doi.org/10.17632/ggr36f5gd5.2)
