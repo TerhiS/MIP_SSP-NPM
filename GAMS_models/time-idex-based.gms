@@ -27,9 +27,9 @@
 * Include for example
 * sample instance: output1.txt
 * replace file path
-* $include "file path:\...\"output1.txt
+* $include "file path:\...\"input1.txt
 * Note: ensure that the time horizon K must be large enough in order to allow for feasible solutions
-$include C:\Users\Administrator\Dropbox\Math_Model\Gams_Input\output273.txt
+
 ;
 
 *** Additional sets and parameters for precedence-based formulation
