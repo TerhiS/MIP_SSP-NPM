@@ -29,7 +29,7 @@ and the [perturbation] in order to overcome local optima. The specific [README] 
 ## Solved With
 [IBM ILOG CPLEX](https://www.ibm.com/de-de/products/ilog-cplex-optimization-studio) - Solver
 ```
-Note: A valid CPLEX licence is required for running the models
+Note: A valid CPLEX licence is required!
 ```
 
 ## Test instances
