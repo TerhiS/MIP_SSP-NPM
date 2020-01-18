@@ -1,0 +1,54 @@
+Sets 
+m   machines / 1* 2 / 
+j   jobs / 1* 5 / 
+t   tools / 1* 10 / 
+k   time / 1* 23 / 
+; 
+ 
+Sets 
+sig(j,t)   set of tools required for job j 
+/ 
+1.(1,4,7,9,10) 
+2.(1,2,4,5,9,10) 
+3.(1,2,3,5,8,9) 
+4.(2,3,5,6,10) 
+5.(1,4,5,7,8,9,10) 
+/ 
+tau(t,j)   set of jobs that require tool t 
+/ 
+1.(1,2,3,5) 
+2.(2,3,4) 
+3.(3,4) 
+4.(1,2,5) 
+5.(2,3,4,5) 
+6.(4) 
+7.(1,5) 
+8.(3,5) 
+9.(1,2,3,5) 
+10.(1,2,4,5) 
+/; 
+ 
+Parameter 
+c(m) magazine capacity 
+/ 
+1=7
+2=5
+/ 
+p(j,m) processing time of job j on machine m 
+/ 
+1.1=2
+1.2=1
+2.1=6
+2.2=6
+3.1=7
+3.2=3
+4.1=5
+4.2=4
+5.1=3
+5.2=2
+/ 
+sw(m) tool switching time on machine m 
+/ 
+1=3
+2=4
+/ 
