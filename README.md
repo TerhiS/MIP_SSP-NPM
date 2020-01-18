@@ -15,11 +15,14 @@ The definitive authenticated version will be available online via [IJOR/Indersci
 [**D. Calmels**](https://www.researchgate.net/profile/Dorothea_Calmels)
 
 ## Content
-Three different MIP models are presented in [GAMS_models](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models). 
+Three different MIP models are provided in [GAMS_models](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models). 
 1) [precedence-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/precedence-based.gms)
 2) [position-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/position-based.gms)
 3) [time-index-based](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/GAMS_models/time-index-based.gmx)
 
+An Iterated Local Search (ILS) heuristic is provided in [ILS](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/ILS).
+The ILS consists of the [construction heurstic] to build the initial solution the [local search] to obtain the local optimum 
+and the [perturbation] in order to overcome local optima. The specific [README] in the ILS folder contains detailed information about the ILS heuristic. 
 
 ## Built With
 [GAMS IDE](https://www.gams.com/download/) - Integrated Development Environment
