@@ -1,5 +1,5 @@
 # =======================================
-# Title: Construction heuristic for the SSP-NPM
+# Title: Construction heuristic (CH) for the SSP-NPM
 # =======================================
 
 # Description: Computes total flowtime / makespan / number of tool switches for the job sequencing and tool switching problm
@@ -11,8 +11,6 @@
 # param sw Tool Switching Time of the Machines
 # param bks Best Known Solution for specific objective
 # @bks = {flowtime, makespan, switches}
-# param heur Type of Heuristic
-# @heur = {GI // "tool switches objective",SPT // "makespan & flowtime objective}
 
 
 # ===========================================
