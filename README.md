@@ -26,7 +26,7 @@ Three different MIP models are provided in [GAMS_models](https://github.com/Terh
 
 ## Built With
 [GAMS IDE](https://www.gams.com/download/) - Integrated Development Environment
-# Solved With
+## Solved With
 [IBM ILOG CPLEX](https://www.ibm.com/de-de/products/ilog-cplex-optimization-studio) - Solver
 ```
 Note: A valid CPLEX licence is required!
