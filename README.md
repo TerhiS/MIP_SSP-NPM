@@ -26,14 +26,14 @@ Three different MIP models are provided in [GAMS_models](https://github.com/Terh
 
 ## Built With
 [GAMS IDE](https://www.gams.com/download/) - Integrated Development Environment
-# Solved With
+## Solved With
 [IBM ILOG CPLEX](https://www.ibm.com/de-de/products/ilog-cplex-optimization-studio) - Solver
 ```
 Note: A valid CPLEX licence is required!
 ```
 # Iterated Local Search
 An Iterated Local Search (ILS) heuristic is provided in [ILS](https://github.com/TerhiS/MIP_SSP-NPM/tree/master/ILS).
-The ILS consists of the [construction heurstic](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R) to build the initial solution the [local search] to obtain the local optimum 
+The ILS consists of the [construction heuristic](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R) to build the initial solution the [local search] to obtain the local optimum 
 and the [perturbation](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R) in order to overcome local optima. The specific [README](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/README_ILS.md) in the ILS folder contains detailed information about the ILS heuristic. 
 
 ## Built With
