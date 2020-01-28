@@ -28,16 +28,16 @@ The output file of the ILS is additionally characterized by the iteration limit 
 Separator: ";"
 
 1) CH*%instance%*.csv: results of the construction heuristic 
-2) ILS_*%iterations%*_*%objective%**%instance%*.csv: results of the ILS
-3) bks_*%objective%**%instance%*.csv: best known results per iteration for a considered objective
+2) ILS_*%iterations%*_*%objective%* *%instance%*.csv: results of the ILS
+3) bks_*%objective%* *%instance%*.csv: best known results per iteration for a considered objective
 
 The files 1) and 2) contain the following information: 
 - *row 1*: total number of tool switches of the sequence generated 
 - *row 2*: total flowtime of the sequence generated 
 - *row 3*: makespan of the sequence generated
 - *row 4*: elapsed computation time in seconds
-- *row 5*: generated job sequence per machine (denoted as vector c(...): machine1(job1, job2, ...) machine2(job1, job2, ...))
-- *row 6*: tool loading of the generated sequence per job (denoted as vector c(...): job1(tool1, tool2, ...) job2(tool1, tool2, ...))
+- *row 5*: generated job sequence per machine denoted as vector c(...): machine1(job1, job2, ...) machine2(job1, job2, ...)
+- *row 6*: tool loading of the generated sequence per job denoted as vector c(...): job1(tool1, tool2, ...) job2(tool1, tool2, ...)
 
 The file 3) contains the following information per iteration: 
 - *column 1*: iteration count
