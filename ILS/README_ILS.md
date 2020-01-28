@@ -24,11 +24,11 @@ processing time of the selected job + (tool switching time * tool set difference
 ## Output
 The Algorithms generate three output files. (see the [example results](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/example_results) )
 Each output file is characterized by the instance identifier (*%instance%*). 
-The output file of the ILS is additionally characterized by the iteration limit %iterations% as well as the objective considered %objective%. 
+The output file of the ILS is additionally characterized by the iteration limit (*%iterations%*) as well as the objective considered (*%objective%*). 
 Separator: ";"
 
 1) CH*%instance%*.csv: results of the construction heuristic 
-2) ILS_*%iterations%*_*%objective%* *%instance%*.csv: results of the ILS
+2) ILS_*%iterations%*_*%objective%*\**%instance%*.csv: results of the ILS
 3) bks_*%objective%* *%instance%*.csv: best known results per iteration for a considered objective
 
 The files 1) and 2) contain the following information: 
