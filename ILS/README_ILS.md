@@ -1,6 +1,6 @@
 # Iterated Local Search (ILS)
 
-The ILS consists of the [construction heuristic](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R) to build the initial solution the [local search] to obtain the local optimum 
+The ILS consists of the [construction heuristic](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R) to build the initial solution the [local search](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R) to obtain the local optimum 
 and the [perturbation](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R) in order to overcome local optima. 
 
 ## Acknowledgement 
