@@ -27,9 +27,9 @@ Each output file is characterized by the instance identifier (*%instance%*).
 The output file of the ILS is additionally characterized by the iteration limit (*%iterations%*) as well as the objective considered (*%objective%*). 
 Separator: ";"
 
-1) CH*%instance%*.csv: results of the construction heuristic 
-2) ILS_*%iterations%*_*%objective%*\**%instance%*.csv: results of the ILS
-3) bks_*%objective%* *%instance%*.csv: best known results per iteration for a considered objective
+1) __CH__*%instance%*__.csv__: results of the construction heuristic 
+2) __ILS__\_*%iterations%*_*%objective%*_%instance%_.csv: results of the ILS
+3) bks_*%objective%*_%instance%_.csv: best known results per iteration for a considered objective
 
 The files 1) and 2) contain the following information: 
 - *row 1*: total number of tool switches of the sequence generated 
