@@ -28,7 +28,7 @@ The output file of the ILS is additionally characterized by the iteration limit 
 Separator: ";"
 
 1) __CH__*%instance%*__.csv__: results of the construction heuristic 
-2) __ILS__\_*%iterations%*_*%objective%*_%instance%_.csv: results of the ILS
+2) __ILS__\_*%iterations%*\_*%objective%*_%instance%_**.csv**: results of the ILS
 3) bks_*%objective%*_%instance%_.csv: best known results per iteration for a considered objective
 
 The files 1) and 2) contain the following information: 
