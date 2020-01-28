@@ -14,12 +14,23 @@ The definitive authenticated version will be available online via [IJOR/Indersci
 The problem instances and an explanation are provided on [Mendeley](http://dx.doi.org/10.17632/ggr36f5gd5.2)
 
 ## Content
-# Construction Heuristic
+### Construction Heuristic
 The [construction heuristic](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R) iteratively assigns jobs to machines. 
 In each iteration, the job with the minimum artificial completion time is selected, calculated as
 ```
 processing time of the selected job + (tool switching time * tool set difference of the selected job and the previous job)
 ```
+### Iterated Local Search
+
+## Usage Description
+The file [main.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/main.R) provides the main body of the ILS. 
+Use this file only unless you would like to run the files or different versions of the files individually. 
+The [main.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/main.R) file recomposes several sub-files required for the ILS heuristic
+It consists of: 
+- preparation.R(https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/preparation.R)
+- construction_heuristic.R(https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R)
+- ils.R(https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R)
+It generates several output files based on the *%objective%* (makespan / total flowtime) and *%instance%*-identifier. 
 
 ## Output
 The Algorithms generate three output files. (see the [example results](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/example_results) )
