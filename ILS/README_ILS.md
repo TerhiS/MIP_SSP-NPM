@@ -27,9 +27,9 @@ The file [main.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/main.R) 
 Use this file only unless you would like to run the files or different versions of the files individually. 
 The [main.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/main.R) file recomposes several sub-files required for the ILS heuristic
 It consists of: 
-- preparation.R(https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/preparation.R)
-- construction_heuristic.R(https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R)
-- ils.R(https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R)
+- [preparation.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/preparation.R)
+- [construction_heuristic.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/constr_heur.R)
+- [ils.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R)
 It generates several output files based on the *%objective%* (makespan / total flowtime) and *%instance%*-identifier. 
 
 ## Output
