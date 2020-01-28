@@ -94,7 +94,7 @@ for (instance in 1:length(data.list)) {
   # ============
   
   ##### Start of computation time counter ####
-  tic("SPT")
+  tic("CH")
   
   # unassigned jobs with the help of setting the processing time of processed jobs to infinity
   j_left <- which(p_m_spt[[1]] != Inf)
