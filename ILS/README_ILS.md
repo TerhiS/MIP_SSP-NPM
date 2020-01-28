@@ -21,6 +21,8 @@ In each iteration, the job with the minimum artificial completion time is select
 processing time of the selected job + (tool switching time * tool set difference of the selected job and the previous job)
 ```
 ### Iterated Local Search
+The [iterated local search](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/ils.R) consists of a local search based on job swaps as well as a problem-specific perturbation scheme. 
+The perturbation scheme re-assigns jobs in unfavourable positions to the best position on another machine. 
 
 ## Usage Description
 The file [main.R](https://github.com/TerhiS/MIP_SSP-NPM/blob/master/ILS/main.R) provides the main body of the ILS. 
