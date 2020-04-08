@@ -14,10 +14,6 @@
 # param heur Type of Heuristic
 # @heur = {GI // "tool switches objective",SPT // "makespan & flowtime objective}
 
-# =======================================
-# file and package preparation
-# =======================================
-
 
 # ===========================================
 ############### Start ILS ###################
@@ -176,7 +172,8 @@ for (ins in 1:length(data.list)) {
     ### completion time of job j
     ct <- list()
     # number of tools that are required and not in the magazine
-    ts_j <- array(dim <- max_j)
+    # !
+    ts_j <- array()
     
     ### initial loading (first jobs)
     for (m in 1:max_m) {
@@ -676,7 +673,7 @@ for (ins in 1:length(data.list)) {
         remove(machine)
         
         #### Generate new sequence
-        # Calculate all possible Phi Values
+        # Calculate all possible insertion positions phi
         phi <- data.frame(matrix(ncol = max_j, nrow = max_m))
         poss_insert_m <-
           which(cap_m >= length(req_t[[j_insert]]))
@@ -935,7 +932,6 @@ for (ins in 1:length(data.list)) {
       
       #### Set improvement flag as TRUE
       improved <- T
-      ls_count <- 0
       
       # in any case use new perturbed sequence and new loading
       seqR <- seq_pert
@@ -998,7 +994,8 @@ for (ins in 1:length(data.list)) {
                 ### completion time of job j
                 ct <- list()
                 # number of tools that are required and not in the magazine
-                ts_j <- array(dim <- max_j)
+                # !
+                ts_j <- array()
                 
                 ### initial loading (first jobs)
                 for (m in 1:max_m) {
