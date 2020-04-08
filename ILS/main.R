@@ -46,4 +46,3 @@ source("constr_heur.R",echo = F)
 # run iterated local search
 source("ils.R",echo = F)
 # Note: The ILS heuristic applied to each %instance% generated two output files!
-#       File bks_%heuristic%
