@@ -47,7 +47,7 @@ diff(j,t) = ss(j,t) - sig(j,t);
 
 Parameter
 g large constant;
-g = sum(j,smax(m,p(j,m)))+(card(j)-card(m))*smax(m,(c(m)*sw(m)));
+g = sum(j,smax(m,p(j,m)))+(card(j)-1)*smax(m,(c(m)*sw(m)));
 
 * ==================
 * Definition of variables
